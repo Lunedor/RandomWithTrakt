@@ -19,7 +19,7 @@ if username is None:
     quit()
 else:
     if username is "":
-        username = tk.simpledialog.askstring("Empty Value", "           Please Enter An Valid Username:          ")
+        username = tk.simpledialog.askstring("Empty Value", "           Please Enter A Valid Username:          ")
         if username is None:
             quit()
         else:
